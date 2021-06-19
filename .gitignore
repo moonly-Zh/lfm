@@ -1,0 +1,5 @@
+# 屏蔽生成文件夹，但保留必要的说明
+/lfm/__pycache__/*
+/lfm/a/__pycache__/*
+/lfm/lfm/__pycache__/*
+/lfm/a/migrations/__pycache__/*

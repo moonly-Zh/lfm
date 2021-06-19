@@ -1,0 +1,15 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=/favicon.ico><script src="https://api.map.baidu.com/api?v=2.0&ak=t6LwY5oQA0yiesbKtvvGLpGiVmbWlpar"></script><link rel=stylesheet href=https://api.map.baidu.com/library/SearchInfoWindow/1.4/src/SearchInfoWindow_min.css><title>vue-demo</title><script>// 基准大小
+    const baseSize = 50
+    // 设置 rem 函数
+    function setRem() {
+      const scale = document.documentElement.clientWidth / 375
+      // 设置页面根节点字体大小
+      // eslint-disable-next-line
+      document.documentElement.style.fontSize = baseSize * Math.min(scale, 2) + 'px'
+    }
+    // 初始化
+    setRem()
+    // 改变窗口大小时重新设置 rem
+    window.onresize = function() {
+      setRem()
+    }</script><link href=/css/chunk-02854bea.2a3003f7.css rel=prefetch><link href=/css/chunk-028847e3.c54b61db.css rel=prefetch><link href=/css/chunk-0f9c83dc.41d85ffd.css rel=prefetch><link href=/css/chunk-330ac708.2edced9f.css rel=prefetch><link href=/css/chunk-407d3efe.456139df.css rel=prefetch><link href=/css/chunk-999f53e0.6425f1e4.css rel=prefetch><link href=/css/chunk-ef6edbd4.bb6d7b71.css rel=prefetch><link href=/js/chunk-02854bea.1a3bba2f.js rel=prefetch><link href=/js/chunk-028847e3.6d998911.js rel=prefetch><link href=/js/chunk-0f9c83dc.3d99d098.js rel=prefetch><link href=/js/chunk-2d0daec7.b559295a.js rel=prefetch><link href=/js/chunk-330ac708.dd9aa9aa.js rel=prefetch><link href=/js/chunk-407d3efe.5eb6f9f4.js rel=prefetch><link href=/js/chunk-999f53e0.7939e8e7.js rel=prefetch><link href=/js/chunk-ef6edbd4.affa8de8.js rel=prefetch><link href=/css/app.5117749a.css rel=preload as=style><link href=/css/chunk-vendors.1b042426.css rel=preload as=style><link href=/js/app.38d73c6f.js rel=preload as=script><link href=/js/chunk-vendors.17ab3a81.js rel=preload as=script><link href=/css/chunk-vendors.1b042426.css rel=stylesheet><link href=/css/app.5117749a.css rel=stylesheet></head><body><noscript><strong>We're sorry but vue-demo doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=/js/chunk-vendors.17ab3a81.js></script><script src=/js/app.38d73c6f.js></script></body></html>
